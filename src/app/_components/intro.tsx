@@ -16,6 +16,7 @@ export function Intro() {
         </a>{" "}
         and {CMS_NAME}.
       </h4>
+      <p>{ process.env.TEST }</p>
     </section>
   );
 }
